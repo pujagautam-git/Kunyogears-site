@@ -1,0 +1,96 @@
+.menlist-wrapper {
+  display: flex;
+  background: #f3f1ea;
+  padding: 40px 50px;
+  gap: 30px;
+  width: 93.4%;
+}
+
+/* LEFT */
+.menlist-left {
+  min-width: 200px;
+}
+
+.menlist-left p {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+
+/* CENTER */
+.menlist-center {
+  display: flex;
+  gap: 70px;
+  flex: 1;
+}
+
+.menlist-column h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.menlist-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menlist-column li {
+  font-size: 14px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  color: #444;
+}
+
+.menlist-column li:hover {
+  text-decoration: underline;
+}
+
+/* RIGHT PROMO */
+.menlist-right {
+  display: flex;
+  gap: 20px;
+}
+
+.promo-large {
+  background: #5b0f1b;
+  color: #fff;
+  padding: 25px;
+  width: 260px;
+  border-radius: 20px;
+}
+
+.promo-large h2 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.promo-large p {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.promo-tag {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+/* SMALL PROMOS */
+.promo-small-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.promo-small {
+  background: #c7b59c;
+  height: 140px;
+  width: 220px;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-end;
+  padding: 15px;
+  font-weight: 600;
+}

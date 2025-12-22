@@ -1,0 +1,149 @@
+/* Overlay */
+.signup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* Modal */
+.signup-modal {
+  background: #fff;
+  width: 420px;
+  border-radius: 10px;
+  padding: 20px 22px 25px;
+  font-family: system-ui, sans-serif;
+}
+
+/* Header */
+.signup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup-header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: #555;
+}
+
+/* Phone input */
+.phone-row {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-top: 18px;
+  overflow: hidden;
+}
+
+.country-code {
+  padding: 12px;
+  background: #f7f7f7;
+  font-size: 14px;
+  border-right: 1px solid #ddd;
+}
+
+.phone-row input {
+  flex: 1;
+  border: none;
+  padding: 12px;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Terms */
+.terms {
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+  margin: 14px 0;
+  color: #555;
+}
+
+.terms a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn.whatsapp {
+  background: #5433eb;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.btn.sms {
+  background: #fff;
+  color:#5433eb;
+  border: 1px solid #5433eb;
+}
+
+/* Login text */
+.login-text {
+  font-size: 13px;
+  text-align: center;
+  margin: 14px 0;
+}
+
+.login-text a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+/* Divider */
+.divider {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  margin: 14px 0;
+}
+
+/* Social */
+.social-login {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social {
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.social.google {
+  color: #444;
+}
+
+.social.facebook {
+  color: #1877f2;
+}

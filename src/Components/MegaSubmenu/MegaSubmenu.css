@@ -1,0 +1,152 @@
+.mega-wrapper {
+background: #f3f1ea;
+/* padding: 30px 40px; */
+position: absolute;
+  transform: translateX(-50%);
+  top: 100%;          /* sits directly below navbar */
+  left: 50%;
+  width: 98vw;
+  z-index: 999;
+  /* display:flex; */
+  /* flex-direction: column; */
+}
+.mega-wrapper.active {
+  opacity: 1;
+  visibility: visible;
+}
+.mega-inner {
+    /* width:100%; */
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px 40px;
+  /* display:flex; */
+  /* flex-direction: column; */
+  gap:20px;
+}
+/* Tabs */
+.mega-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  /* padding: 18px 40px; */
+  margin-bottom: 40px;
+}
+
+.mega-tabs button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  padding-bottom: 6px;
+}
+
+.mega-tabs .active {
+  border-bottom: 2px solid #000;
+  font-weight: 600;
+}
+
+/* Layout */
+.mega-content {
+   display: grid;
+  grid-template-columns: 220px 1fr 280px;
+  column-gap: 60px;
+  align-items: flex-start;
+  justify-content: start;   /* NOT center */
+  /* display: grid;
+  gap: 20px;
+  padding: 20px 40px;
+  width:100%;
+  box-sizing: border-box; */
+}
+
+/* Left */
+.mega-left {
+  min-width: 20px;
+  text-align: left;
+}
+
+.mega-left p {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+/* Center */
+.mega-center {
+  display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+  gap: 40px;
+  /* flex: 1; */
+}
+
+.mega-column h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.mega-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mega-column li {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+/* Right */
+/* RIGHT PROMO COLUMN */
+.mega-right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-self: flex-start;
+}
+
+/* PROMO CARD */
+.promo-large {
+  width: 280px;
+  border-radius: 18px;
+  overflow: hidden;
+  background:#57111f;
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* IMAGE */
+.promo-large img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+/* TEXT CONTENT */
+.promo-large span {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  opacity: 0.85;
+  margin: 14px 18px 4px;
+}
+
+.promo-large h2 {
+  font-size: 22px;
+  line-height: 1.2;
+  margin: 0 18px 6px;
+}
+
+.promo-large p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0 18px 18px;
+  opacity: 0.9;
+}
+
+/* HOVER EFFECT */
+.promo-large:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.25);
+}

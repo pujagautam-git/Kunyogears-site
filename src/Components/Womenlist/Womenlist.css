@@ -1,0 +1,137 @@
+/* ---------------- SUBMENU DROPDOWN ---------------- */
+.submenu-wrapper {
+width: 100%;
+background: #e7e3db;
+padding: 18px 0 45px 0;
+/* display: none; */
+justify-content: center;
+position: absolute;
+top: 140px;
+left: 0;
+z-index: 50;
+opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+}
+
+
+
+.submenu-wrapper.active {
+    opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+
+
+.submenu-container {
+width: 93%;
+max-width: 1500px;
+display: grid;
+grid-template-columns: 220px 220px 220px 220px 1fr;
+gap: 50px;
+}
+
+
+
+
+/* Left Column (Category List) */
+.submenu-col-title {
+font-weight: 700;
+font-size: 12px;
+font-family: "Geograph",system-ui,sans-serif;
+text-transform: uppercase;
+color:#212121;
+margin-bottom: 18px;
+}
+
+.submenu-list-first a{
+font-size: 12px;
+cursor: pointer;
+transition: 0.2s;
+color:#212121;
+font-family: "Geograph",system-ui,sans-serif;
+text-decoration: none;
+outline: none;
+font-weight: 700;
+text-transform: uppercase;
+}
+.submenu-list, .submenu-list-first {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+
+.submenu-list a {
+font-size: 14px;
+cursor: pointer;
+transition: 0.2s;
+color:#575757;
+font-family: "Geograph",system-ui,sans-serif;
+text-decoration: none;
+}
+
+
+.submenu-list a:hover {
+opacity: 0.6;
+text-decoration: underline;
+}
+
+
+/* Right Side Promo Cards */
+.submenu-right {
+display: flex;
+flex-direction: column;
+gap: 18px;
+}
+
+
+.submenu-card {
+width: 100%;
+border-radius: 18px;
+overflow: hidden;
+cursor: pointer;
+position: relative;
+}
+
+
+.submenu-card img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+}
+
+
+.submenu-card-text {
+position: absolute;
+bottom: 18px;
+left: 18px;
+font-size: 17px;
+font-weight: 700;
+color: #fff;
+}
+
+
+/* Black promo big card */
+.submenu-big {
+height: 330px;
+border-radius: 20px;
+overflow: hidden;
+}
+
+
+.submenu-small {
+height: 150px;
+display: flex;
+gap: 18px;
+}
+
+
+.submenu-small .submenu-card {
+width: 50%;
+}
