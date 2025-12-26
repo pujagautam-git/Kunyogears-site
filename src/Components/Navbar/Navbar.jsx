@@ -20,6 +20,7 @@ import "./Navbar.css";
 const Navbar =({user, logout}) =>{
     const [activeCategory, setActiveCategory] = useState(null);
 const [activeSection, setActiveSection] = useState(0);
+const categories = ["All Categories", ...Object.keys(menuData)];
 
 const [showSignup, setShowSignup] = useState(false);
  const [showLogin, setShowLogin] = useState(false);
@@ -58,7 +59,8 @@ return (
 {/* Center Menu */}
 
 <ul className="nav-menu">
-  {Object.keys(menuData).map((category) => (
+  {/* {Object.keys(menuData).map((category) => ( */}
+  {categories.map((category) => (
     <li
   key={category}
   className="nav-item"

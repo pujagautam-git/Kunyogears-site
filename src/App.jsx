@@ -2,7 +2,7 @@ import {Route, Routes} from "react-router";
 import Navbar from "./Components/Navbar/Navbar.jsx";
 import { CartProvider } from "./context/CartContext.jsx";
 import { AuthProvider } from "./Components/AuthContext.jsx";
-// import Home from "./Pages/Home/Home.jsx";
+import Home from "./Pages/Home/Home.jsx";
 
 const App =() => {
   return(
@@ -12,7 +12,7 @@ const App =() => {
       <Navbar/>
       <Routes>
       
-        {/* <Route path='/' element={<Home/>}/> */}
+        <Route path='/' element={<Home/>}/>
        
       </Routes>
       </CartProvider>

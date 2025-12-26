@@ -1,3 +1,22 @@
+import laptop from "../assets/menudata/1.png";
+import desktop from "../assets/menudata/2.png";
+import monitor from "../assets/menudata/3.png";
+import tablet from "../assets/menudata/4.png";
+import mobileAccess from "../assets/menudata/5.png";
+import charger from "../assets/menudata/6.png";
+import stands from "../assets/menudata/7.png";
+import gamecontroller from "../assets/menudata/8.png";
+import adapter from "../assets/menudata/9.png";
+import controller from "../assets/menudata/10.png";
+import furniture from "../assets/menudata/12.png";
+import watch from "../assets/menudata/13.png";
+import printer from "../assets/menudata/16.png";
+import camera from "../assets/menudata/19.png";
+import combo from "../assets/menudata/21.png";
+import support from "../assets/menudata/22.png";
+import router from "../assets/menudata/24.png";
+import headphone from "../assets/menudata/25.png";
+
 const menuData = {
   "Computer & Laptop": {
     subCategories: [
@@ -32,10 +51,10 @@ const menuData = {
           // },
         ],
           promo: {
-        image: "/images/promo/laptops.jpg",
+        image: laptop,
         tag: "Laptop Deals",
         title: "Up to 40% OFF",
-        desc: "Gaming & Business Laptops"
+        desc: "Gaming & Business Laptops "
       }
       },
 
@@ -57,13 +76,12 @@ const menuData = {
           //   items: ["Insoles", "Care Kits"],
           // },
         ],
-         promo: {
-        image: "/images/promo/laptops.jpg",
-        tag: "Laptop Deals",
-        title: "Up to 40% OFF",
-        desc: "Gaming & Business Laptops"
-      }
-        
+        promo: {
+  image: desktop,
+  tag: "PC Essentials",
+  title: "Special PC Discounts",
+  desc: "Home, Business & Gaming Desktops"
+}
       },
 
       {
@@ -86,12 +104,12 @@ const menuData = {
           // },
         ],
         
-      promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+    promo: {
+  image: monitor,
+  tag: "Gaming Monitors",
+  title: "Smooth Visuals, Big Savings",
+  desc: "High Refresh & Curved Displays"
+}
       },
     ],
   },
@@ -129,12 +147,14 @@ const menuData = {
           //   items: ["Socks", "Apparel", "Bags", "Gift Cards"],
           // },
         ],
-         promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+       
+      promo: {
+  image: tablet,
+  tag: "Tablet Deals",
+  title: "Up to 30% OFF",
+  desc: "Android, iPad & Learning Tablets"
+}
+
       },
 
       {
@@ -155,12 +175,12 @@ const menuData = {
           //   items: ["Insoles", "Care Kits"],
           // },
         ],
-         promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+        promo: {
+  image: mobileAccess,
+  tag: "Mobile Essentials",
+  title: "Style & Protect",
+  desc: "Covers, Screen Guards & Stands"
+}
       },
 
       {
@@ -181,12 +201,13 @@ const menuData = {
           //   items: ["Gift Cards"],
           // },
         ],
-         promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+       promo: {
+  image: charger,
+  tag: "Charging Essentials",
+  title: "Power Up & Save",
+  desc: "Fast Chargers, Cables & Power Banks"
+}
+
       },
     ],
   },
@@ -218,12 +239,13 @@ const menuData = {
           },
         
         ],
-         promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+        promo: {
+  image: stands,
+  tag: "Laptop Essentials",
+  title: "Work Smarter, Save More",
+  desc: "Docking, Stands & Carry Bags"
+}
+
       },
 
       {
@@ -244,12 +266,12 @@ const menuData = {
           //   items: ["Insoles", "Care Kits"],
           // },
         ],
-         promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+        promo: {
+  image: gamecontroller,
+  tag: "Peripheral Deals",
+  title: "Up to 35% OFF",
+  desc: "Keyboards, Mouse & Controllers"
+}
       },
 
       {
@@ -271,11 +293,11 @@ const menuData = {
           // },
         ],
          promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+  image: adapter,
+  tag: "USB-C Essentials",
+  title: "Connect More, Spend Less",
+  desc: "Fast Cables, Adapters & Multi-Ports"
+}
       },
     ],
   },
@@ -311,12 +333,12 @@ const menuData = {
           //   items: ["Socks", "Apparel", "Bags", "Gift Cards"],
           // },
         ],
-         promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+       promo: {
+  image: controller,
+  tag: "Gaming Deals",
+  title: "Up to 30% OFF",
+  desc: "Consoles, Controllers & Games"
+}
       },
 
       {
@@ -337,12 +359,13 @@ const menuData = {
           //   items: ["Insoles", "Care Kits"],
           // },
         ],
-         promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+        promo: {
+  image: furniture,
+  tag: "Gaming Furniture Deals",
+  title: "Up to 25% OFF",
+  desc: "Gaming Chairs, Desks & Setups"
+}
+
       },
 
       // {
@@ -395,12 +418,13 @@ const menuData = {
           //   items: ["Socks", "Apparel", "Bags", "Gift Cards"],
           // },
         ],
-         promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+        promo: {
+  image: watch,
+  tag: "Future Tech",
+  title: "Live Smarter",
+  desc: "Watches, Trackers & IoT Devices"
+}
+
       },
 
       {
@@ -421,12 +445,13 @@ const menuData = {
           //   items: ["Insoles", "Care Kits"],
           // },
         ],
-         promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+        promo: {
+  image: printer,
+  tag: "Office Essentials",
+  title: "Boost Your Workflow",
+  desc: "Printers, Scanners & Office Gadgets"
+}
+
       },
 
       {
@@ -447,12 +472,12 @@ const menuData = {
           //   items: ["Gift Cards"],
           // },
         ],
-         promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+       promo: {
+  image: camera,
+  tag: "Surveillance Essentials",
+  title: "Protect What Matters",
+  desc: "Indoor, Outdoor & Smart Security"
+}
       },
     ],
   },
@@ -488,12 +513,13 @@ const menuData = {
           //   items: ["Socks", "Apparel", "Bags", "Gift Cards"],
           // },
         ],
-         promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+        promo: {
+  image: combo,
+  tag: "Special Deals",
+  title: "Up to 50% OFF",
+  desc: "Bundles, Combos & Exclusive Offers"
+}
+
       },
 
       {
@@ -514,12 +540,13 @@ const menuData = {
           //   items: ["Insoles", "Care Kits"],
           // },
         ],
-         promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+        promo: {
+  image: support,
+  tag: "Service Deals",
+  title: "Trusted Support",
+  desc: "Warranty, Repairs & Customer Care"
+}
+
       },
 
     
@@ -558,12 +585,13 @@ const menuData = {
           //   items: ["Socks", "Apparel", "Bags", "Gift Cards"],
           // },
         ],
-         promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+       promo: {
+  image: router,
+  tag: "Network Essentials",
+  title: "Connect & Save",
+  desc: "Routers, Switches & Wi-Fi Devices"
+}
+
       },
 
       {
@@ -584,12 +612,13 @@ const menuData = {
           //   items: ["Insoles", "Care Kits"],
           // },
         ],
-         promo: {
-        image: "/images/promo/components.jpg",
-        tag: "Build Your PC",
-        title: "Top Components",
-        desc: "Latest CPUs & GPUs"
-      }
+        promo: {
+  image: headphone,
+  tag: "Sound & Vision",
+  title: "Upgrade Your Gear",
+  desc: "Headphones, Speakers & Microphones"
+}
+
       },
 
      
