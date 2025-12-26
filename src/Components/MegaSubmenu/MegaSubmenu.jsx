@@ -81,6 +81,21 @@ const MegaSubmenu = ({ category }) => {
             </div>
           ))}
         </div>
+
+     {/* ✅ RIGHT IMAGE (same as other menus) */}
+        {activeSub.promo && (
+          <div className="mega-right">
+            <div className="promo-large">
+              <img
+                src={activeSub.promo.image}
+                alt={activeSub.promo.title}
+              />
+              <span>{activeSub.promo.tag}</span>
+              <h2>{activeSub.promo.title}</h2>
+              <p>{activeSub.promo.desc}</p>
+            </div>
+          </div>
+        )}
       </div>
     </>
   )}
